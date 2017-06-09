@@ -20,7 +20,7 @@ public with sharing class HRO_BoardingAction_CX {
     public HRO_Onboarding_Plan__c planInfo{get;set;}
     public Boolean isSalesforce1{get;set;}
     public String userId{get;set;}
-    private Integer j=13;
+    private Integer j=12;
 	private static final String SELECTEDLEADERPARAM = '&tab.HRO_HeadStart.leaderToSelect=';
     /*******************************************************************
    Purpose:  Class constructor                                                   
