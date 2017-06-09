@@ -16,9 +16,11 @@ VERSION  AUTHOR            DATE              DETAIL            Description
 public with sharing class HRO_BoardingAction_CX {
     @testVisible
     private List<HRO_Onboarding_Plan__c> listOfTemplateTasks{get;set;}
+    private Integer i =12;
     public HRO_Onboarding_Plan__c planInfo{get;set;}
     public Boolean isSalesforce1{get;set;}
     public String userId{get;set;}
+    private Integer j=13;
 	private static final String SELECTEDLEADERPARAM = '&tab.HRO_HeadStart.leaderToSelect=';
     /*******************************************************************
    Purpose:  Class constructor                                                   
