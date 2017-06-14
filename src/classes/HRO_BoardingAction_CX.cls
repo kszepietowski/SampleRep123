@@ -24,7 +24,6 @@ public with sharing class HRO_BoardingAction_CX {
     private Integer j=13;
     private Integer jj =14;
     private Integer cc = 15;
-    private Integer aa = 16;
     private Integer aa =12;
 	private static final String SELECTEDLEADERPARAM = '&tab.HRO_HeadStart.leaderToSelect=';
     /*******************************************************************
