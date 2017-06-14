@@ -25,6 +25,7 @@ public with sharing class HRO_BoardingAction_CX {
     private Integer jj =14;
     private Integer cc = 15;
     private Integer aa = 16;
+    private Integer aa =12;
 	private static final String SELECTEDLEADERPARAM = '&tab.HRO_HeadStart.leaderToSelect=';
     /*******************************************************************
    Purpose:  Class constructor                                                   
@@ -34,6 +35,7 @@ public with sharing class HRO_BoardingAction_CX {
   ********************************************************************/ 
 
     public HRO_BoardingAction_CX(ApexPages.StandardSetController ctrl){
+        Integer ss = 1;
         system.debug('****HRO Entring HRO_BoardingAction_CX class constructor');
         planInfo = new HRO_Onboarding_Plan__c();
         userId = UserInfo.getUserId();
