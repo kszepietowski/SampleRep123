@@ -22,6 +22,9 @@ public with sharing class HRO_BoardingAction_CX {
     public String userId{get;set;}
     private Integer c = 13;
     private Integer j=13;
+    private Integer jj =14;
+    private Integer cc = 15;
+    private Integer aa = 16;
 	private static final String SELECTEDLEADERPARAM = '&tab.HRO_HeadStart.leaderToSelect=';
     /*******************************************************************
    Purpose:  Class constructor                                                   
